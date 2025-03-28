@@ -71,7 +71,13 @@ spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.MySQL8Dialect
 
 ### 1. Login
 
-![Login ](https://github.com/user-attachments/assets/a0aeec22-b13b-411d-b0ce-c18287fe6826)
+<p align="center">
+  <img 
+    src="https://github.com/user-attachments/assets/a0aeec22-b13b-411d-b0ce-c18287fe6826"
+    alt="Login"
+    width="400"
+/>
+</p>
 
 ### 2. User View
 
