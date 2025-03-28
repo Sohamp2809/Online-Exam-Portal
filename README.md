@@ -155,6 +155,12 @@ spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.MySQL8Dialect
 
 - Open a Pull Request.
 
+## License
+
+This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) file for details.
+
+© 2025 Soham Patel
+
 
 
 
