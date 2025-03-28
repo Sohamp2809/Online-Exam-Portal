@@ -81,7 +81,14 @@ spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.MySQL8Dialect
 
 ### 2. User View
 
-![User_View](https://github.com/user-attachments/assets/751c83a3-95e9-4c4e-9981-2a5895735bbe)
+<p align="center">
+  <img 
+    src="https://github.com/user-attachments/assets/751c83a3-95e9-4c4e-9981-2a5895735bbe"
+    alt="User View"
+    width="600"
+/>
+</p>
+
 
 ### 3. Question Create
 
