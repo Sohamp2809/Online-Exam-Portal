@@ -5,11 +5,22 @@ A streamlined solution for creating, managing, and taking exams online. This por
 ---
 
 ## Features
-- **User Management**: Create and manage users (Admin, Candidate).
-- **Exam Management**: Create tests, assign questions, set time limits.
-- **Question Bank**: Reusable questions categorized by subject.
-- **Candidate Panel**: Secure login, view and attempt exams, see results.
-- **Scoring**: Automated scoring, results view for admins/candidates.
+
+### User Management
+- Admin can add users, view users, assign roles (candidate, admin), and manage user accounts.
+
+### Question Management
+- Create, update, and delete questions for exams.
+
+### Exam/Test Management
+- Create new exams, add or remove questions from an exam.
+
+### Candidate Panel
+- Users can log in to view available exams and attempt them.
+
+### Results
+- Display scores or results after completing exams (optional, depends on your implementation).
+
 
 ---
 # Quick Start Commands
@@ -19,7 +30,7 @@ Below is a quick, **copy-paste-friendly** set of commands to **clone** the proje
 
 # 1. Clone the repository
 ```
-git clone https://github.com/YourUsername/Online-Exam-Portal.git
+git clone https://github.com/Sohamp2809/Online-Exam-Portal.git
 cd Online-Exam-Portal
 ```
 # 2. (Backend) Build & Run with Maven
@@ -36,6 +47,26 @@ npm install
 npm start
 # Frontend should run on: http://localhost:3000
 ```
+
+### Database Configuration (Spring Boot + MySQL)
+
+The project uses **MySQL** configured in [`application.properties`](./backend/src/main/resources/application.properties). If your setup differs, update these lines:
+
+```properties
+server.port=8089
+spring.datasource.url=jdbc:mysql://localhost:3306/OnlineExamPortal?createDatabaseIfNotExist=true
+spring.datasource.username=
+spring.datasource.password=
+spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
+spring.jpa.hibernate.ddl-auto=update
+spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.MySQL8Dialect
+```
+- **Port**: By default, the backend runs on **8089**.  
+- **Credentials**: Replace the username/password with your own.  
+- **Database**: Includes `?createDatabaseIfNotExist=true` to auto-create **OnlineExamPortal** if needed.  
+- **DDL Auto**: `update` creates/updates tables based on your entity classes.
+
+
 ## Screenshots
 
 ### 1. Login
@@ -70,7 +101,18 @@ npm start
 
 ![Exam View](https://github.com/user-attachments/assets/cc45c9cb-ce58-404c-bc01-a523aa2a2d7f)
 
+---
+## Contributing
 
+- Fork the project.
+
+- Create a new branch: `git checkout -b feature/MyNewFeature`.
+
+- Make your changes and commit: `git commit -m "Add my new feature"`.
+
+- Push to the branch: `git push origin feature/MyNewFeature`.
+
+- Open a Pull Request.
 
 
 
