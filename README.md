@@ -3,6 +3,14 @@
 A streamlined solution for creating, managing, and taking exams online. This portal uses **Spring Boot + MySQL** on the backend and **React** on the frontend.
 
 ---
+## Table of Contents
+
+- [Features](#features)
+- [Quick Start Commands](#quick-start-commands)
+- [Database Configuration (Spring Boot + MySQL)](#database-configuration-spring-boot--mysql)
+- [Screenshots](#screenshots)
+- [Contributing](#contributing)
+- [License](#license)
 
 ## Features
 
