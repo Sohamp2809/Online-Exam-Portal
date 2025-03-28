@@ -75,7 +75,7 @@ spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.MySQL8Dialect
   <img 
     src="https://github.com/user-attachments/assets/a0aeec22-b13b-411d-b0ce-c18287fe6826"
     alt="Login"
-    width="400"
+    width="600"
 />
 </p>
 
