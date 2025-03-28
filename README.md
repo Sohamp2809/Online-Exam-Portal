@@ -23,24 +23,24 @@ A streamlined solution for creating, managing, and taking exams online. This por
 
 
 ---
-# Quick Start Commands
+## Quick Start Commands
 
 Below is a quick, **copy-paste-friendly** set of commands to **clone** the project, **install** dependencies, and **run** both the **backend** (Spring Boot) and **frontend** (React). Just open a terminal and follow along.
 
 
-# 1. Clone the repository
+### 1. Clone the repository
 ```
 git clone https://github.com/Sohamp2809/Online-Exam-Portal.git
 cd Online-Exam-Portal
 ```
-# 2. (Backend) Build & Run with Maven
+### 2. (Backend) Build & Run with Maven
 ```
 cd backend
 mvn clean install
 mvn spring-boot:run &
 # Backend should start on: http://localhost:8089
 ```
-# 3. (Frontend) Install & Start
+### 3. (Frontend) Install & Start
 ```
 cd ../frontend
 npm install
@@ -48,7 +48,7 @@ npm start
 # Frontend should run on: http://localhost:3000
 ```
 
-### Database Configuration (Spring Boot + MySQL)
+## Database Configuration (Spring Boot + MySQL)
 
 The project uses **MySQL** configured in [`application.properties`](./backend/src/main/resources/application.properties). If your setup differs, update these lines:
 
