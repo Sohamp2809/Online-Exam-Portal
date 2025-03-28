@@ -92,27 +92,55 @@ spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.MySQL8Dialect
 
 ### 3. Question Create
 
-![Question_Create](https://github.com/user-attachments/assets/249dabe5-4c2e-4900-b036-674c2184fbb0)
+<p align="center">
+  <img 
+    src="https://github.com/user-attachments/assets/249dabe5-4c2e-4900-b036-674c2184fbb0" 
+    alt="Question Create" 
+    width="600">
+</p>
+
 
 ### 4. Questions
 
-![Questions](https://github.com/user-attachments/assets/8c81bce4-5768-47c5-80b9-e5225caeb208)
+<p align="center">
+  <img 
+    src="https://github.com/user-attachments/assets/8c81bce4-5768-47c5-80b9-e5225caeb208" 
+    alt="Questions" 
+    width="600">
+</p>
 
 ### 5. Test Create
-
-![Test_Create](https://github.com/user-attachments/assets/8c2f325d-0715-4b1f-917d-bc91e749bff6)
+<p align="center">
+  <img 
+    src="https://github.com/user-attachments/assets/8c2f325d-0715-4b1f-917d-bc91e749bff6" 
+    alt="Test Create" 
+    width="600">
+</p>
 
 ### 6. Adding User
 
-![Adding User for exam](https://github.com/user-attachments/assets/79c4a05f-6b98-450e-b8d3-bfb9f9059d0d)
+<p align="center">
+  <img 
+    src="https://github.com/user-attachments/assets/79c4a05f-6b98-450e-b8d3-bfb9f9059d0d" 
+    alt="Adding User" 
+    width="600">
+</p>
 
 ### 7. Candidate Panel
-
-![Candidate Panel](https://github.com/user-attachments/assets/5ed92ee0-c5eb-4c95-861b-fa1abe6255aa)
+<p align="center">
+  <img 
+    src="https://github.com/user-attachments/assets/5ed92ee0-c5eb-4c95-861b-fa1abe6255aa" 
+    alt="Candidate Panel" 
+    width="600">
+</p>
 
 ### 8. Exam View
-
-![Exam View](https://github.com/user-attachments/assets/cc45c9cb-ce58-404c-bc01-a523aa2a2d7f)
+<p align="center">
+  <img 
+    src="https://github.com/user-attachments/assets/cc45c9cb-ce58-404c-bc01-a523aa2a2d7f" 
+    alt="Exam View" 
+    width="600">
+</p>
 
 ---
 ## Contributing
